@@ -14,7 +14,6 @@ class Robot : IWorkable
         Console.WriteLine("[Robot]:働く");
     }
 }
-
 class Human : IWorkable, IEatable
 {
     public void Work()
@@ -40,3 +39,4 @@ class Program
         humanEater.Eat();
     }
 }
+
